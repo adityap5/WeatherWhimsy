@@ -131,4 +131,15 @@ body {
         text-align: left;
         gap:0;
     }
+    .serach input {
+        width: 60%;
+        height: 45px;
+        border-radius: 20px;
+        padding: 10px 10px;
+    
+        border: 2px solid gray;
+        flex: 1;
+        font-size: 18px;
+        color: #555;
+    }
 }
