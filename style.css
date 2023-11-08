@@ -116,3 +116,19 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+@media (width <=400px ){
+    .humidity, .wind{
+        font-size: 20px;
+        margin-top: -6px;
+    }
+    .coln img {
+        width:35px;
+        margin-right: 5px;
+    }
+    .coln {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        gap:0;
+    }
+}
